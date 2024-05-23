@@ -8,6 +8,6 @@ export class LoginDto {
     userName: string;
   
     @IsString()
-    @ApiProperty({ example: '****', description: 'Kullanıcı Şifresi' })
+    @ApiProperty({ example: '2ek!_cak!r', description: 'Kullanıcı Şifresi' })
     password: string;
   }

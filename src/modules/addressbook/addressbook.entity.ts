@@ -23,4 +23,6 @@ export class AddressBook
   @Column()
   city: string;
  
+  @Column()
+  userid: number;
 }
